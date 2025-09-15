@@ -73,3 +73,41 @@ margin-bottom: 15px;
       font-size: 40px;
       font-weight:bold;
 }
+
+/* PartySection ---------------------------------*/
+.PartySectionFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.PartySection{
+    background-image: url("../images/Vectorrr.png");
+        border-radius: 10px;
+    height:650px;
+    background-repeat: no-repeat;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partyHead{
+    font-family: "Merriweather";
+    color: white;
+   font-weight: bold;
+   font-size: 65px;
+}
+
+.PartyPg{
+    opacity: 70%;
+    color: #FFFFFF;
+       font-family: "Inter";
+      font-size: 18px;
+      font-weight:700;
+}
+
+.partyBtn{
+    
+       font-family: "Inter";
+      font-size: 18px;
+      font-weight:bold;
+      border-radius: 5px;
+}
