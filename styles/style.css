@@ -110,4 +110,29 @@ display: flex;
       font-size: 18px;
       font-weight:bold;
       border-radius: 5px;
+           border: none;
 }
+
+.TimeSection{
+    text-align: center;
+}
+
+.redColor{
+    color: #FF0000;
+}
+
+.timeHeading{
+        font-family: "Inter";
+      font-size: 30px;
+      font-weight:700;
+}
+.textBtn{
+    background-color: #FF0000;
+    color: #FFFFFF;
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight:bold;
+      padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
