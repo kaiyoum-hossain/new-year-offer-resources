@@ -115,6 +115,9 @@ display: flex;
 
 .TimeSection{
     text-align: center;
+  background-image: linear-gradient(to top, rgba(240, 226, 226, 0), rgb(252, 213, 210));
+  border-radius: 10px;
+  padding: 25px;
 }
 
 .redColor{
@@ -136,3 +139,82 @@ display: flex;
         border-radius: 10px;
         border: none;
     }
+
+.mainSection{
+  margin-top: 50px;
+    display: flex;
+  gap:140px;
+  justify-content: center;
+}
+.mainOffer{
+    color: #FF0000;
+          font-family: "Inter";
+      font-size: 20px;
+      font-weight:500;
+}
+.mainSoon{
+        font-family: "Merriweather";
+
+   font-weight: bold;
+   font-size: 45px;
+}
+.mainpg{
+    opacity: 70%;
+         font-family: "Inter";
+      font-size: 15px;
+      font-weight:700;
+}
+    .img{
+        border: 8px solid red;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    
+    }
+.year{
+    color: #FF0000;
+         font-family: "Inter";
+      font-size: 45px;
+      font-weight:bold;
+}
+
+
+
+/* Functional Section---------------- */
+.MainFunctional{
+  text-align: center;
+}
+.FunctionalText{
+     font-family: "Inter";
+      font-size: 20px;
+      font-weight:500;
+}
+.FunctionalHeading{
+    
+        font-family: "Inter";
+   font-weight: bold;
+   font-size: 45px;
+}
+.imgFlexSection{
+  display: flex;
+ 
+ position: absolute;
+}
+
+.BgColor{
+
+   position: relative;
+
+}
+
+.background{
+    
+   margin-top: -200px;
+  /* bottom: 0;
+  left: 0; */
+  width: 150%;
+  height: 130px; 
+    background-image: url("../images/Rectangle\ 2.png");
+    border-radius: 10px;
+    
+}
