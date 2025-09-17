@@ -197,8 +197,7 @@ display: flex;
 }
 .imgFlexSection{
   display: flex;
- 
- position: absolute;
+
 }
 
 .BgColor{
@@ -210,11 +209,90 @@ display: flex;
 .background{
     
    margin-top: -200px;
-  /* bottom: 0;
-  left: 0; */
+  bottom: 0;
+  left: 0;
   width: 150%;
   height: 130px; 
     background-image: url("../images/Rectangle\ 2.png");
     border-radius: 10px;
     
+}
+
+
+/* best Section------------------- */
+.bestHead{
+  color: #FF0000;
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight:500;
+}
+.bestSection, .gridImg, img{
+ width: 99%;
+
+}
+.gridImg{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+
+}
+
+/* Footer section-------------- */
+
+.img61{
+  width: 10%;
+  height: 10%;
+}
+.subscribeSection{
+  text-align: center;
+  background-color: rgb(253, 229, 228);
+  border-radius: 10px;
+  padding: 10px;
+}
+.subscribeText{
+        font-family: "Merriweather";
+
+   font-weight: bold;
+   font-size: 45px;
+}
+
+
+.Input{
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.SubscribeBtn{
+  background-color: #FF0000;
+  color: #FFFFFF;
+ width: 90px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.footerSection{
+  background-color: black;
+  margin-top: 50px;
+padding: 30px;
+ 
+  color: #FFFFFF;
+}
+
+.footerSectionDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerIcon{
+  width: 35px;
+  display: flex;
+margin-left:550px;
+  align-items: center;
+ 
+}
+
+.footerText{
+  display: flex;
+  justify-content: space-around;
 }
